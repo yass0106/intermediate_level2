@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(150, 150, 150);
+    background-color: rgba(117, 85, 244, 0.76);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 25px 35px;
+}
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: gray;
+}
+.cha_ref{
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 3px 36px; 
+    margin: 20px 0px;
+    width: max-content;
+    text-align: center;
+    display: flex;
+}
+.captcha {
+    font-size: 24px; 
+    color: gray;
+    padding: 10px;
+    letter-spacing: 10px;
+    display: inline-block;
+}
+.reload {
+    font-family: Lucida Sans Unicode;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+#refreshButton{
+    background-color: rgba(117, 85, 244, 0.76);
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 0px 15px;
+    margin-left: 5%;
+    border-radius: 10px;
+    border: none;
+}
+#input{
+    display: block;
+    border: solid gray 1px;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    margin: 20px 0px;
+    height: 30px;
+    width: 225px;
+    font-weight: bold;
+    color: gray;
+}
+
+#button{
+    padding: 13px 76px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+    background-color: rgba(117, 85, 244, 0.76);
+}
